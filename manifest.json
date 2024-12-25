@@ -15,14 +15,16 @@
     "content_scripts": [
         {
             "matches": ["https://www.twitch.tv/*"],
-            "js": ["scripts/popup.js"],
-            "css": ["popup.css"]
+            "js": ["scripts/content.js"]
         }
     ],
-    "web_accessible_resources": [
-        {
-            "resources": ["popup.html", "popup.js", "popup.css"],
-            "matches": ["https://www.twitch.tv/*"]
-        }
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.twitch.tv/*"
     ]
 }

@@ -8,5 +8,5 @@ A twitch chat extension that allows you to have two chats at the same time.
 4. Open twitch and enjoy!
 
 ---
-<center> Made with ❤️ by Taiga O'Donnell  </center>
+Made with ❤️ by Taiga O'Donnell
 
